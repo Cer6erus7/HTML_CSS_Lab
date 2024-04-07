@@ -1,0 +1,111 @@
+body {
+        margin: 0px;
+        font-family: Arial;
+    }
+
+main {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+.headers_box {
+        background-color: #3fa5b0;
+        color: white;
+        height: 130px;
+        border-bottom: 1px solid black;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+
+.navbar ul{
+        list-style-type: none;
+        background-color: grey;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        border-bottom: 1px solid black;
+    }
+
+.navbar a{
+        color: white;
+        text-decoration: none;
+        width: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-right: 1px solid black;
+        display: block;
+        text-align: center;
+    }
+
+.navbar a:hover{
+        background-color: darkgrey;
+    }
+
+.navbar li{
+    float: left;
+    }
+
+.posts {
+        background-color: #FBE0C3;
+        border: 1px solid black;
+        overflow: hidden;
+        padding: 10px;
+        margin-bottom: 15px
+    }
+
+.posts p{
+        font-size: 15px;
+        width: 470px;
+        float: left
+    }
+
+.posts ul{
+        list-style-position: inside;
+        background-color: white;
+        float: right;
+        width: 150px;
+        height: 90px;
+        margin: 10px;
+        border: 1px solid black
+    }
+
+.posts li{
+        padding: 1px;
+        margin: 5px;
+    }
+
+.posts ul{
+        padding: 0px
+    }
+
+.posts figure{
+        background-color: white;
+        float: left;
+        width: 130px;
+        height: 150px;
+        margin: 10px;
+        margin-right: 20px;
+        border: 1px solid black
+    }
+
+.posts img{
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+.posts figcaption{
+        font-size: 10px;
+        margin: 6px
+    }
+
+.footer_box {
+        background-color: #D05663;
+        color: white;
+        height: 70px;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
